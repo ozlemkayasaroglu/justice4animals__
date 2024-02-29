@@ -35,7 +35,7 @@ const filters = [
   },
   {
     id: 'date',
-    name: 'tarih',
+    name: 'Tarih',
     //color
     options: [
       { value: 'Ocak/Mart', label: 'White', checked: false },
@@ -46,7 +46,7 @@ const filters = [
   },
   {
     id: 'year',
-    name: 'yıl',
+    name: 'Yıl',
     //size
     options: [
       { value: '2022', label: 'S', checked: false },
