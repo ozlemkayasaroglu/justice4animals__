@@ -9,7 +9,7 @@ const Testimonials = () =>{
           <div className="absolute inset-y-0 right-1/2 -z-10 mr-12 w-[150vw] origin-bottom-left skew-x-[-30deg] bg-white shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 sm:mr-20 md:mr-0 lg:right-full lg:-mr-36 lg:origin-center"></div>
           <figure className="grid grid-cols-1 items-center gap-x-6 gap-y-8 lg:gap-x-10">
             <div className="relative col-span-2 lg:col-start-1 lg:row-start-2">
-              <svg
+            <svg
                 viewBox="0 0 162 128"
                 fill="none"
                 aria-hidden="true"

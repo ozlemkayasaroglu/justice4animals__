@@ -3,12 +3,13 @@ import Link from "next/link";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import Filter from "../../components/Filter";
+import Pagination from "@/components/Pagination";
 export default function list() {
   return (
     <>
       <Navbar />
 
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 bg-zinc-100">
         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl p-10  text-center">
           Şehir Adı
         </h2>
@@ -155,9 +156,13 @@ export default function list() {
             </ul>
           </div>
         </div>
+        <Pagination />
       </div>
+   
+   <div className="mt-10">
 
       <Filter />
+   </div>
 
       <Footer />
     </>

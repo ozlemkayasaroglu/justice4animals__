@@ -21,19 +21,71 @@ export default function Home() {
           />
         </div>
 
-    
+        <div class="relative bg-white">
+          <div class="mx-auto grid max-w-7xl lg:grid-cols-2">
+            <div class="px-6 pb-24 pt-16 sm:pb-32 sm:pt-20 lg:col-start-2 lg:px-8 lg:pt-32">
+              <div class="mx-auto max-w-2xl lg:mr-0 lg:max-w-lg">
+                <h2 class="text-base font-semibold leading-8 text-indigo-600">
+                  Our track record
+                </h2>
+                <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                  Trusted by thousands of creators&nbsp;worldwide
+                </p>
+                <p class="mt-6 text-lg leading-8 text-gray-600">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Maiores impedit perferendis suscipit eaque, iste dolor
+                  cupiditate blanditiis ratione.
+                </p>
+                <dl class="mt-16 grid max-w-xl grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 xl:mt-16">
+                  <div class="flex flex-col gap-y-3 border-l border-gray-900/10 pl-6">
+                    <dt class="text-sm leading-6 text-gray-600">
+                      Creators on the platform
+                    </dt>
+                    <dd class="order-first text-3xl font-semibold tracking-tight text-gray-900">
+                      8,000+
+                    </dd>
+                  </div>
+                  <div class="flex flex-col gap-y-3 border-l border-gray-900/10 pl-6">
+                    <dt class="text-sm leading-6 text-gray-600">
+                      Flat platform fee
+                    </dt>
+                    <dd class="order-first text-3xl font-semibold tracking-tight text-gray-900">
+                      3%
+                    </dd>
+                  </div>
+                  <div class="flex flex-col gap-y-3 border-l border-gray-900/10 pl-6">
+                    <dt class="text-sm leading-6 text-gray-600">
+                      Uptime guarantee
+                    </dt>
+                    <dd class="order-first text-3xl font-semibold tracking-tight text-gray-900">
+                      99.9%
+                    </dd>
+                  </div>
+                  <div class="flex flex-col gap-y-3 border-l border-gray-900/10 pl-6">
+                    <dt class="text-sm leading-6 text-gray-600">
+                      Paid out to creators
+                    </dt>
+                    <dd class="order-first text-3xl font-semibold tracking-tight text-gray-900">
+                      $70M
+                    </dd>
+                  </div>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <Filter />
 
-        <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl p-10  text-center">
-          Son Haberler
-        </h2>
-
-        <div className="flex mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex flex-wrap -mx-4">
+        <div className=" mx-auto max-w-7xl px-6 lg:px-8">
+          <h2 className="text-3xl  font-bold tracking-tight text-gray-900 sm:text-4xl p-10 text-center">
+            Son Haberler
+          </h2>
+          <div className="container flex mx-auto px-4 sm:px-6 lg:px-8  ">
+            <div className="flex flex-wrap -mx-4  ">
               <article className="flex max-w-xl flex-col w-full md:w-1/3 px-4 mb-8">
                 <div className="flex items-center gap-x-4 text-xs">
-                  <time datetime="2020-03-16" className="text-gray-500">
+                  <time dateTime="2020-03-16" className="text-gray-500">
                     Mar 16, 2020
                   </time>
                   <a
@@ -49,11 +101,11 @@ export default function Home() {
                       <span className="absolute inset-0"></span>
                       Boost your conversion rate
                     </a>
-                    <div className="relative mt-8 flex items-center gap-x-4">
+                    <div className="relative mt-8 flex items-center gap-x-4 h-48 w-60">
                       <Image
                         width="300"
                         height="300"
-                        className="rounded-sm bg-gray-50 items-center justify-center"
+                        className="rounded-sm bg-gray-50 items-center justify-center h-full w-full object-cover object-center"
                         src="/images/blog-1.jpg"
                         alt=""
                       />
@@ -69,7 +121,7 @@ export default function Home() {
               </article>
               <article className="flex max-w-xl flex-col w-full md:w-1/3 px-4 mb-8">
                 <div className="flex items-center gap-x-4 text-xs">
-                  <time datetime="2020-03-16" className="text-gray-500">
+                  <time dateTime="2020-03-16" className="text-gray-500">
                     Mar 16, 2020
                   </time>
                   <a
@@ -85,12 +137,12 @@ export default function Home() {
                       <span className="absolute inset-0"></span>
                       Boost your conversion rate
                     </a>
-                    <div className="relative mt-8 flex items-center gap-x-4">
+                    <div className="relative mt-8 flex items-center gap-x-4 h-48 w-60">
                       <Image
                         width="300"
                         height="300"
-                        className="rounded-sm bg-gray-50"
-                        src="/images/blog-1.jpg"
+                        className="rounded-sm bg-gray-50 items-center justify-center h-full w-full object-cover object-center"
+                        src="https://images.unsplash.com/photo-1570018144715-43110363d70a?q=80&w=4325&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 4325w"
                         alt=""
                       />
                     </div>
@@ -121,12 +173,12 @@ export default function Home() {
                       <span className="absolute inset-0"></span>
                       Boost your conversion rate
                     </a>
-                    <div className="relative mt-8 flex items-center gap-x-4">
+                    <div className="relative mt-8 flex items-center gap-x-4 h-48 w-60">
                       <Image
                         width="300"
                         height="300"
-                        className="rounded-sm bg-gray-50"
-                        src="/images/blog-1.jpg"
+                        className="rounded-sm bg-gray-50 items-center justify-center h-full w-full object-cover object-center"
+                        src="https://images.unsplash.com/photo-1524309124783-00473b0bbd21?q=80&w=5496&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D 5496w"
                         alt=""
                       />
                     </div>
@@ -142,12 +194,13 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
-      {/* testimonials */}
-      <Testimonials />
 
-      {/* footer */}
-      <Footer />
+        {/* testimonials */}
+        <Testimonials />
+
+        {/* footer */}
+        <Footer />
+      </div>
     </>
   );
 }
