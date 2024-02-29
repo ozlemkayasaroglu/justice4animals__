@@ -11,7 +11,7 @@ export default function Home() {
       <Navbar />
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="mb-8 mt-4 justify-center">
+        <div className="mt-4 justify-center">
           <Image
             src="/images/cat-dog.jpg"
             width="1500"
@@ -21,55 +21,58 @@ export default function Home() {
           />
         </div>
 
-        <div class="relative bg-white">
-          <div class="mx-auto grid max-w-7xl lg:grid-cols-2">
-            <div class="px-6 pb-24 pt-16 sm:pb-32 sm:pt-20 lg:col-start-2 lg:px-8 lg:pt-32">
-              <div class="mx-auto max-w-2xl lg:mr-0 lg:max-w-lg">
-                <h2 class="text-base font-semibold leading-8 text-indigo-600">
-                  Our track record
-                </h2>
-                <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                  Trusted by thousands of creators&nbsp;worldwide
-                </p>
-                <p class="mt-6 text-lg leading-8 text-gray-600">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Maiores impedit perferendis suscipit eaque, iste dolor
-                  cupiditate blanditiis ratione.
-                </p>
-                <dl class="mt-16 grid max-w-xl grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 xl:mt-16">
-                  <div class="flex flex-col gap-y-3 border-l border-gray-900/10 pl-6">
-                    <dt class="text-sm leading-6 text-gray-600">
-                      Creators on the platform
-                    </dt>
-                    <dd class="order-first text-3xl font-semibold tracking-tight text-gray-900">
-                      8,000+
-                    </dd>
-                  </div>
-                  <div class="flex flex-col gap-y-3 border-l border-gray-900/10 pl-6">
-                    <dt class="text-sm leading-6 text-gray-600">
-                      Flat platform fee
-                    </dt>
-                    <dd class="order-first text-3xl font-semibold tracking-tight text-gray-900">
-                      3%
-                    </dd>
-                  </div>
-                  <div class="flex flex-col gap-y-3 border-l border-gray-900/10 pl-6">
-                    <dt class="text-sm leading-6 text-gray-600">
-                      Uptime guarantee
-                    </dt>
-                    <dd class="order-first text-3xl font-semibold tracking-tight text-gray-900">
-                      99.9%
-                    </dd>
-                  </div>
-                  <div class="flex flex-col gap-y-3 border-l border-gray-900/10 pl-6">
-                    <dt class="text-sm leading-6 text-gray-600">
-                      Paid out to creators
-                    </dt>
-                    <dd class="order-first text-3xl font-semibold tracking-tight text-gray-900">
-                      $70M
-                    </dd>
-                  </div>
-                </dl>
+        <div class="bg-white py-16">
+          <div class="mx-auto max-w-7xl px-6 lg:px-8">
+            <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
+              <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                Our mission
+              </h2>
+              <div class="mt-6 flex flex-col gap-x-8 gap-y-20 lg:flex-row">
+                <div class="lg:w-full lg:max-w-2xl lg:flex-auto">
+                  <p class="text-xl leading-8 text-gray-600">
+                    Aliquet nec orci mattis amet quisque ullamcorper neque, nibh
+                    sem. At arcu, sit dui mi, nibh dui, diam eget aliquam.
+                    Quisque id at vitae feugiat egestas ac. Diam nulla orci at
+                    in viverra scelerisque eget. Eleifend egestas fringilla
+                    sapien.
+                  </p>
+                  <p class="mt-10 max-w-xl text-base leading-7 text-gray-700">
+                    Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget
+                    risus enim. Mattis mauris semper sed amet vitae sed turpis
+                    id. Id dolor praesent donec est. Odio penatibus risus
+                    viverra tellus varius sit neque erat velit. Faucibus commodo
+                    massa rhoncus, volutpat. Dignissim sed eget risus enim.
+                    Mattis mauris semper sed amet vitae sed turpis id.
+                  </p>
+                </div>
+                <div class="lg:flex lg:flex-auto lg:justify-center">
+                  <dl class="w-64 space-y-8 xl:w-80">
+                    <div class="flex flex-col-reverse gap-y-4">
+                      <dt class="text-base leading-7 text-gray-600">
+                        Transactions every 24 hours
+                      </dt>
+                      <dd class="text-5xl font-semibold tracking-tight text-gray-900">
+                        44 million
+                      </dd>
+                    </div>
+                    <div class="flex flex-col-reverse gap-y-4">
+                      <dt class="text-base leading-7 text-gray-600">
+                        Assets under holding
+                      </dt>
+                      <dd class="text-5xl font-semibold tracking-tight text-gray-900">
+                        $119 trillion
+                      </dd>
+                    </div>
+                    <div class="flex flex-col-reverse gap-y-4">
+                      <dt class="text-base leading-7 text-gray-600">
+                        New users annually
+                      </dt>
+                      <dd class="text-5xl font-semibold tracking-tight text-gray-900">
+                        46,000
+                      </dd>
+                    </div>
+                  </dl>
+                </div>
               </div>
             </div>
           </div>
