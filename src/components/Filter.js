@@ -1,6 +1,12 @@
 import Link from "next/link";
 const Filter = () => {
   return (
+
+
+
+
+
+    
     <div className="flex justify-center items-center space-x-4 mb-10">
       <label
         htmlFor="location"
