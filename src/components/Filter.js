@@ -18,18 +18,12 @@ const filters = [
     name: 'Şehir', 
     //category
     options: [
-      { value: 'İstanbul', label: 'All New Arrivals', checked: false },
-      { value: 'İzmir', label: 'Tees', checked: false },
-      { value: 'Adana', label: 'Objects', checked: true },
-      { value: 'Bursa', label: 'Tees', checked: false },
-      { value: 'Gaziantep', label: 'Objects', checked: true },
-      { value: 'Konya', label: 'Tees', checked: false },
-      { value: 'Kayseri', label: 'Tees', checked: false },
-      { value: 'Antalya', label: 'Objects', checked: true },
-      { value: 'Diyarbakır', label: 'Tees', checked: false },
-      { value: 'Eskisehir', label: 'Objects', checked: true },
-      { value: 'Erzurum', label: 'Tees', checked: false },
-      { value: 'Mersin', label: 'Tees', checked: false },
+      { value: 'İstanbul', label: 'İstanbul', checked: false },
+      { value: 'İzmir', label: 'İzmir', checked: false },
+      { value: 'Adana', label: 'Adana', checked: true },
+      { value: 'Bursa', label: 'Bursa', checked: false },
+      { value: 'Gaziantep', label: 'Gaziantep', checked: true },
+     
     
     ],
   },
@@ -38,10 +32,10 @@ const filters = [
     name: 'Tarih',
     //color
     options: [
-      { value: 'Ocak/Mart', label: 'White', checked: false },
-      { value: 'Nisan/Haziran', label: 'Beige', checked: false },
-      { value: 'Temmuz/Eylül', label: 'Blue', checked: false },
-      { value: 'Ekim/Aralık', label: 'Blue', checked: false },
+      { value: 'OcakMart', label: 'Ocak-Mart', checked: false },
+      { value: 'NisanHaziran', label: 'Nisan-Haziran', checked: false },
+      { value: 'TemmuzEylül', label: 'Temmuz-Eylül', checked: false },
+      { value: 'EkimAralık', label: 'Ekim-Aralık', checked: false },
     ],
   },
   {
@@ -49,9 +43,9 @@ const filters = [
     name: 'Yıl',
     //size
     options: [
-      { value: '2022', label: 'S', checked: false },
-      { value: '2023', label: 'M', checked: false },
-      { value: '2024', label: 'L', checked: false },
+      { value: '2022', label: '2022', checked: false },
+      { value: '2023', label: '2023', checked: false },
+      { value: '2024', label: '2024', checked: false },
     ],
   },
 ]
