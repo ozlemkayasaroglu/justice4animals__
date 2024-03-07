@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Testimonials from "../components/Testimonials";
 import Filter from "../components/Filter";
-import News from "@/components/News";
+import Blog from "@/components/Blog";
 import Mission from "@/components/Mission";
 
 export default function Home() {
@@ -22,7 +22,7 @@ export default function Home() {
         </div>
         <Mission />
         <Filter />
-        <News />
+        <Blog />
         <Testimonials />
         <Footer />
       </div>

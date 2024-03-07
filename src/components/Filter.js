@@ -20,7 +20,7 @@ const filters = [
     options: [
       { value: 'İstanbul', label: 'İstanbul', checked: false },
       { value: 'İzmir', label: 'İzmir', checked: false },
-      { value: 'Adana', label: 'Adana', checked: true },
+      { value: 'Adana', label: 'Adana', checked: false },
       { value: 'Bursa', label: 'Bursa', checked: false },
       { value: 'Gaziantep', label: 'Gaziantep', checked: true },
      
@@ -49,7 +49,7 @@ const filters = [
     ],
   },
 ]
-const activeFilters = [{ value: 'Objects', label: 'Objects' }]
+const activeFilters = [{ value: 'Şehir', label: 'Şehir' }]
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -90,7 +90,7 @@ export default function Example() {
             >
               <Dialog.Panel className="relative ml-auto flex h-full w-full max-w-xs flex-col overflow-y-auto bg-white py-4 pb-12 shadow-xl">
                 <div className="flex items-center justify-between px-4">
-                  <h2 className="text-lg font-medium text-gray-900">Filters</h2>
+                  <h2 className="text-lg font-medium text-zinc-900">Filters</h2>
                   <button
                     type="button"
                     className="-mr-2 flex h-10 w-10 items-center justify-center rounded-md bg-white p-2 text-gray-400"
@@ -152,7 +152,13 @@ export default function Example() {
       </Transition.Root>
 
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
-        <h1 className="text-3xl font-bold tracking-tight text-gray-900">Workspace sale</h1>
+        <h1 className="text-3xl font-bold tracking-tight text-gray-900 hover:text-sky-300">
+          <Link href="/list">
+
+          Workspace sale
+          </Link>
+          
+          </h1>
         <p className="mt-4 max-w-xl text-sm text-gray-700">
           Our thoughtfully designed workspace objects are crafted in limited runs. Improve your productivity and
           organization with these sale items before we run out.
@@ -212,7 +218,7 @@ export default function Example() {
 
             <button
               type="button"
-              className="inline-block text-sm font-medium text-gray-700 hover:text-gray-900 sm:hidden"
+              className="inline-block text-sm font-medium text-sky-700 hover:text-gray-900 sm:hidden"
               onClick={() => setOpen(true)}
             >
               Filters
