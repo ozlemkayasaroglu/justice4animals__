@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import Link from "next/link";
 const Navbar = () => {
   return (
     <main>
@@ -7,13 +7,16 @@ const Navbar = () => {
         <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
           <div class="relative flex h-16 justify-between">
             <div class="flex  items-center">
+              <Link href="/">
               <Image
                 width="600"
                 height="400"
                 class="h-16 w-full "
                 src="/images/logo.png"
                 alt="Your Company"
+                
               />
+              </Link>
             </div>
 
             <div className="flex flez-1 justify-end items-center">

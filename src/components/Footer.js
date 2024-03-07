@@ -16,12 +16,13 @@ const Footer = () => {
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8">
           <Image
-                className="h-8 w-auto w-1/4 h-1/4 lg:w-1/2 lg:h-1/2"
+                
+
+                width="600"
+                height="500"
+                className="h-32 w-full  md:w-auto sm:w-auto lg:w-auto"
                 src="/images/logo.png"
-               
-                width="2500"
-                height="1200"
-                alt="J4A Logo"
+                alt="Your Company"
               />
             <p className="text-sm leading-6 text-sky-700">
               Making the world a better place through constructing elegant
